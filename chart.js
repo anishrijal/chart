@@ -31,10 +31,10 @@ function getChart(d){
                 label: '2014',
                 data: datar[0].slice(1,5),
                 backgroundColor: [
-                 'red','blue','green','yellow'
+                 'red','red', 'red','red'
                 ],
                 borderColor: [
-                  'red','blue','green','yellow'
+                   'red','red', 'red','red'
                 ],
                 borderWidth: 1
               },
@@ -42,10 +42,10 @@ function getChart(d){
                 label: '2015',
                 data: datar[1].slice(1,5),
                 backgroundColor: [
-                 'red','blue','green','yellow'
+                 'blue','blue','blue', 'blue'
                 ],
                 borderColor: [
-                 'red','blue','green','yellow'
+                 'blue','blue','blue', 'blue'
                 ],
                 borderWidth: 1
              },
@@ -53,10 +53,10 @@ function getChart(d){
                 label: '2016',
                 data: datar[2].slice(1,5),
                 backgroundColor: [
-                  'red','blue','green','yellow'
+                  'yellow','yellow','yellow','yellow'
                 ],
                 borderColor: [
-                  'red','blue','green','yellow'
+                  'yellow','yellow','yellow','yellow'
                 ],
                 borderWidth: 1
           }]
