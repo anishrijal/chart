@@ -37,7 +37,12 @@ header{
   display: flex;
 }
 
+#myChart{
+  position: absolute;
+  width: 400px;
+  height: 400px;
 
+}
 
 .addedButton{
   background-color: lightblue;
@@ -47,7 +52,9 @@ header{
 
 }
 
-@media screen and (max-width: 750px) {
+/*@media screen and (max-width: 900px) and (min-width: 520px) {*/
+
+@media screen and (max-width: 768px) {
   .container{
 
       flex-flow: column;
