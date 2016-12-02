@@ -53,10 +53,10 @@ function getChart(d){
                 label: '2016',
                 data: datar[2].slice(1,5),
                 backgroundColor: [
-                  'yellow','yellow','yellow','yellow'
+                  'green','green','green','green'
                 ],
                 borderColor: [
-                  'yellow','yellow','yellow','yellow'
+                  'green','green','green','green'
                 ],
                 borderWidth: 1
           }]
